@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'JetBrains Mono', 'SF Mono', 'Fira Code', monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+button {
+  font-family: inherit;
+}
+
+button:hover {
+  opacity: 0.92;
+  transform: translateY(-0.5px);
+}
+
+button:active {
+  transform: translateY(0.5px);
+}
+
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #1c2536; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #2a3a52; }
+
+::selection { background: rgba(201, 162, 39, 0.3); }
